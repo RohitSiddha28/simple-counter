@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+}
+
+#l {
+  font-size: 200px;
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.b {
+  padding: 10px 30px;
+  font-size: 30px;
+  background-color: rgb(111, 165, 165);
+  color: white;
+  border-radius: 25px;
+  border-color: bisque;
+  margin-right: 20px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
+
+#r {
+  background-color: red;
+  transition: background-color 0.25s;
+}
+
+#r:hover {
+  background-color: rgb(59, 173, 105);
+}
+
+.b:hover {
+  background-color: rgb(98, 68, 169);
+}
+
+.m {
+  margin-top: 13cm;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
